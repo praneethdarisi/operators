@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Triangle
+{
+  public static void main(String[] args)
+  {
+     Scanner sc=sc.nextInt();
+     int b,h;
+     float area;
+     System.out.println("Enter values of b and h:");
+     area=(0.5)*b*h;
+     System.out.print("Area of triangle = %f"+area);
+   }
+ }
